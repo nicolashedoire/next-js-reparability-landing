@@ -8,7 +8,7 @@
     "dev": "next --port 4200",
     "build": "next build",
     "start": "next start",
-    "export": "next export",
+    "export": "next build && next export",
     "type-check": "tsc",
     "prettier:fix": "prettier --write **/*.tsx"
   },

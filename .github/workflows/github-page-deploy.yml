@@ -1,0 +1,43 @@
+# This workflow uses actions that are not certified by GitHub.
+# They are provided by a third-party and are governed by
+# separate terms of service, privacy policy, and support
+# documentation.
+
+# This workflow will install Deno and run tests across stable and canary builds on Windows, Ubuntu and macOS.
+# For more information see: https://github.com/denoland/setup-deno
+
+name: Github-page-deploy
+
+on:
+  push:
+    branches: [master]
+
+jobs:
+  build: 
+    runs-on: ubuntu-latest 
+    
+    strategy:
+      matrix:
+        node-version: [14.x]
+        
+    steps:
+      - name: checkout
+        uses: actions/checkout@v2
+        
+      - name: use Node version ${{matrix.node-version}}
+        uses: actions/setup-node@v2.1.5
+        with:
+          node-version: ${{matrix.node-version}}
+        
+      - name: install & build
+      - run: npm i
+      - run: npm run build --if-present
+      - run: npm run export
+        
+      - name: Deploy 🚀
+        uses: JamesIves/github-pages-deploy-action@4.1.4
+        with:
+          branch: master # The branch the action should deploy to.
+          folder: out # The folder the action should deploy.
+      
+

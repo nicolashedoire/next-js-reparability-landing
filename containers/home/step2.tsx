@@ -3,7 +3,7 @@ import Card from "../../components/Card";
 
 const Step2 = () => {
   return (
-    <section className="py-8 sm:py-40 md:py-16 bg-gray-ultraLight container relative max-w-5xl mx-auto">
+    <section className="bg-gray-ultraLight container relative max-w-5xl mx-auto py-8 sm:py-40 md:py-16 ">
       <div className="relative sm:pt-64 md:pt-32 flex justify-center">
         <div className="w-11/12 px-4 mx-auto mb-12 bg-white rounded-lg shadow-2xl sm:w-10/12 sm:absolute sm:left-0 sm:right-0 lg:w-full py-9 -top-36 sm:mb-0">
           <div className="grid grid-cols-1 gap-3 sm:grid-cols-1 md:grid-cols-3">

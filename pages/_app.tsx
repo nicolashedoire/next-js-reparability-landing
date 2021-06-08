@@ -1,5 +1,5 @@
 import "../styles/index.css";
-import 'tailwindcss/tailwind.css'
+// import 'tailwindcss/tailwind.css'
 import React, { FC } from "react";
 import { AppProps } from "next/app";
 

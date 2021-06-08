@@ -10,7 +10,8 @@
     "start": "next start",
     "export": "next build && next export",
     "type-check": "tsc",
-    "prettier:fix": "prettier --write **/*.tsx"
+    "prettier:fix": "prettier --write **/*.tsx",
+    "tailwind build": "npx tailwindcss build styles.css -o output.css"
   },
   "dependencies": {
     "clsx": "^1.1.1",

@@ -30,6 +30,7 @@ const GlobalMeta: FC = () => (
     />
     <link rel="icon" href={`/favicon/favicon.ico`} key="favicon" />
     <link rel="manifest" href={`${process.env.NEXT_PUBLIC_BASE_PATH}/favicon/site.webmanifest`} />
+    <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet"></link>
     <script src="https://apis.google.com/js/platform.js" />
     <script
       type="text/javascript"

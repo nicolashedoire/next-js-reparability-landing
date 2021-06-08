@@ -1,0 +1,36 @@
+{
+  "name": "reparability-landing",
+  "homepage": "https://nicolashedoire.github.io/reparability-landing",
+  "version": "1.0.0",
+  "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "dev": "next --port 4200",
+    "build": "next build",
+    "start": "next start",
+    "type-check": "tsc",
+    "prettier:fix": "prettier --write **/*.tsx"
+  },
+  "dependencies": {
+    "clsx": "^1.1.1",
+    "next": "latest",
+    "next-seo": "^4.24.0",
+    "postcss-preset-env": "^6.7.0",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "react-geocode": "^0.2.3",
+    "react-google-places-autocomplete": "^3.3.1",
+    "react-hook-form": "^7.8.1",
+    "tailwindcss": "^2.1.4"
+  },
+  "devDependencies": {
+    "@types/node": "^12.12.21",
+    "@types/react": "^17.0.2",
+    "@types/react-dom": "^17.0.1",
+    "autoprefixer": "^10.2.6",
+    "gh-pages": "^3.2.0",
+    "prettier": "^2.3.1",
+    "typescript": "^4.2.3"
+  },
+  "license": "MIT"
+}

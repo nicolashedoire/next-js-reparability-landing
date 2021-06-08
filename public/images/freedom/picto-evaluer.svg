@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="42" height="38" viewBox="0 0 42 38">
+  <g id="Icon" transform="translate(1)">
+    <g id="Ellipse_31" data-name="Ellipse 31" transform="translate(-1 26)" fill="none" stroke="#185490" stroke-width="3">
+      <circle cx="6" cy="6" r="6" stroke="none"/>
+      <circle cx="6" cy="6" r="4.5" fill="none"/>
+    </g>
+    <g id="Ellipse_32" data-name="Ellipse 32" transform="translate(8 6)" fill="none" stroke="#185490" stroke-width="3">
+      <circle cx="6" cy="6" r="6" stroke="none"/>
+      <circle cx="6" cy="6" r="4.5" fill="none"/>
+    </g>
+    <g id="Ellipse_33" data-name="Ellipse 33" transform="translate(19 26)" fill="none" stroke="#185490" stroke-width="3">
+      <circle cx="6" cy="6" r="6" stroke="none"/>
+      <circle cx="6" cy="6" r="4.5" fill="none"/>
+    </g>
+    <g id="Ellipse_34" data-name="Ellipse 34" transform="translate(29)" fill="none" stroke="#185490" stroke-width="3">
+      <circle cx="6" cy="6" r="6" stroke="none"/>
+      <circle cx="6" cy="6" r="4.5" fill="none"/>
+    </g>
+    <rect id="Rectangle_382" data-name="Rectangle 382" width="13.739" height="3.5" rx="1.75" transform="translate(5.057 27.843) rotate(-67)" fill="#185490"/>
+    <path id="Tracé_803" data-name="Tracé 803" d="M1.054.081,19.089-.125c.582,0,1.054.737,1.054,1.647s-.472,1.647-1.054,1.647L1.054,3.375C.472,3.375,0,2.638,0,1.728S.472.081,1.054.081Z" transform="translate(25.027 27.573) rotate(-68)" fill="#185490"/>
+    <rect id="Rectangle_385" data-name="Rectangle 385" width="15.007" height="3.5" rx="1.75" transform="translate(22.297 29.399) rotate(-120)" fill="#185490"/>
+  </g>
+</svg>

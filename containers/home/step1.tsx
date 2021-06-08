@@ -8,7 +8,6 @@ const Step1 = () => {
   return (
     <div className="container pt-40 relative max-w-5xl mx-auto sm:py-36 md:pb-48">
       <div className="flex flex-col px-4 sm:flex-row">
-        {/* Left */}
         <div className="relative z-10 w-full md:w-8/12 text-blue-900">
           <div className="w-full sm:w-full md:w-11/12">
             <h1 className="mb-6 text-4xl text-center sm:text-center md:text-left">

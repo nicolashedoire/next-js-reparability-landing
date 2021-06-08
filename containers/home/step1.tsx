@@ -44,7 +44,7 @@ const Step1 = () => {
           <Image
             width={400}
             height={362}
-            src={`${process.env.NEXT_PUBLIC_BASE_PATH}/images/index/header.png`}
+            src={`/images/index/header.png`}
             alt=""
           />
         </div>

@@ -29,7 +29,7 @@ const GlobalMeta: FC = () => (
       key="icon16"
     />
     <link rel="icon" href={`/favicon/favicon.ico`} key="favicon" />
-    <link rel="manifest" href={`/favicon/site.webmanifest`} />
+    <link rel="manifest" href={`${process.env.NEXT_PUBLIC_BASE_PATH}/favicon/site.webmanifest`} />
     <script src="https://apis.google.com/js/platform.js" />
     <script
       type="text/javascript"

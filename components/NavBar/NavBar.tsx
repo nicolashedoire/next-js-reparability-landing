@@ -70,7 +70,7 @@ const NavBar: FC<NavBarProps> = ({
                       type="button"
                       className="text-white flex flex-row items-center text-md px-3 py-3 font-bold rounded-md outline-none focus:outline-none bg-purple-700"
                     >
-                      <img src={`/icons/user-account.svg`} alt="" />
+                      <img src={`${process.env.NEXT_PUBLIC_BASE_PATH}/icons/user-account.svg`} alt="" />
                       <span className="pl-3">Créer mon compte</span>
                     </button>
                   </a>
@@ -144,7 +144,7 @@ const NavBar: FC<NavBarProps> = ({
                       className="flex flex-row items-center pl-3 mx-auto text-sm"
                     >
                       <Image
-                        src={`/icons/user-account.svg`}
+                        src={`${process.env.NEXT_PUBLIC_BASE_PATH}/icons/user-account.svg`}
                         width={135}
                         height={43}
                         alt=""

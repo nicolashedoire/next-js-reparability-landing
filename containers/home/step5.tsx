@@ -14,7 +14,7 @@ const Step5 = () => {
                 type="button"
                 className="flex flex-row justify-center items-center mx-auto text-black bg-white text-md px-3 py-3 font-bold rounded-md outline-none focus:outline-none"
               >
-                <img src={`/icons/user-account-black.svg`} alt="" />
+                <img src={`${process.env.NEXT_PUBLIC_BASE_PATH}/icons/user-account-black.svg`} alt="" />
                 <span className="pl-3">Créer mon compte</span>
               </button>
             </a>
